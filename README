@@ -1,0 +1,8 @@
+===================
+    gm_menu_net
+===================
+
+Brings the Client State net library to the Menu State, sort of.
+
+Really all it does is add Menu State functions that call into Client State to run the functions from Client State, and returns whatever Client State gives back into Menu State.
+Basically, it's a net library state hopper.
